@@ -1,5 +1,14 @@
 # Pi Model Looper
 
+## About this project
+
+This is a fork of Adafruit’s **pi_video_looper** project, originally published at:  
+https://github.com/adafruit/pi_video_looper
+
+The codebase has been modified and extended for personal use and rebranded as a separate project.
+
+----------
+
 A small low power, efficient, practical video looper for small, low-power display builds.
 
 Think Pi Zero, Zero W, older boards, and the kind of setup where you put the device inside a model, close it up, and don’t want to think about it again. I make and build models, gamng tables, hobby projects and such builds. So i needed a build that was efficient and liteweight to just play and forget.
@@ -73,15 +82,15 @@ If you want modern KMS or DRM pipelines, you can build them. And yes you’ll al
 ## Known-good panel resolutions
 
 These are the cheap HDMI panels people actually use:
-- 480×272 for very small dashboards
-- 800×480 for common 5-inch panels
+- 480×272 for very small dashboards.
+- 800×480 for common 5-inch panels.
 - 1024×600 for common 7-inch panels
 
 If you encode to the panel’s native resolution, you reduce scaling work and avoid a lot of ugly tearing.
 
 ## Quick start (the tired version)
 
-There’s a fuller checklist in `DEPLOYMENT.md`, especially for sealed builds.
+There’s a fuller checklist in `DEPLOYMENT.md`, especiall,y for sealed builds.
 
 Short version:
 1. Put your videos in the configured media folder.
